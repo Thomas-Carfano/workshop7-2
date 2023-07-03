@@ -1,26 +1,39 @@
-const timmy = {
+ let array = [ timmy = {
     prescription: "acetaminophen",
     pricePerRefill: 25,
     refills: 3,
     subscription: false,
     coupon: true,
-  };
-  const sarah = {
+},
+
+ sarah = {
     prescription: "diphenhydramine",
     pricePerRefill: 50,
     refills: 1,
     subscription: true,
     coupon: false,
-  };
-  const rocky = {
+},
+
+ rocky = {
     prescription: "phenylephrine",
     pricePerRefill: 30,
     refills: 5,
     subscription: true,
     coupon: true,
-  };
-  // create a variable for patientName
-  const patientName = rocky;
+}];
+
+// create a variable for patientName
+  let patientName = (array) => { 
+    for(let key in array) {
+    return key[i];
+    console.log(key[i]);
+
+}
+console.log(key[i]);
+};
+
+
+
   // create a variable for refills
   const refills = patientName.refills;
   // create a variable for pricePerRefill
@@ -53,6 +66,8 @@ const timmy = {
   const finalAmount = couponDiscount(subDiscountedPrice, coupon);
   //Return and print "Your Grand total is ${finalAmount}"
   console.log(`Your Grand total is ${finalAmount}`);
+  
+  
   
   
   
